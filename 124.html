@@ -1,0 +1,37 @@
+<html>
+<body><center><h1>This is how it works:</h1></center><br>
+
+<ul type="square"><li>The switch expression is evaluated once.</li><br>
+<li>The value of the expression is compared with the values of each case.</li><br>
+<li>If there is a match, the associated block of code is executed.<li></ul><br>
+<h2>The break and default keywords are optional, and will be described later in this chapter
+The example below uses the weekday number to calculate the weekday name:</h2><br>
+Example:<br><br>
+
+int day = 4;<br>
+switch (day)<br> {<br>
+  case 1:<br>
+    System.out.println("Monday");<br>
+    break;<br><br>
+  case 2:<br>
+    System.out.println("Tuesday");<br>
+    break;<br><br>
+  case 3:<br>
+    System.out.println("Wednesday");<br>
+    break;<br><br>
+  case 4:<br>
+    System.out.println("Thursday");<br>
+    break;<br><br>
+  case 5:<br>
+    System.out.println("Friday");<br>
+    break;<br><br>
+  case 6:<br>
+    System.out.println("Saturday");<br>
+    break;<br><br>
+  case 7:<br>
+    System.out.println("Sunday");<br>
+    break;<br><br>
+}<br>
+// Outputs <br>"Thursday"<br>
+</body>
+</html>
